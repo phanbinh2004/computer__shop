@@ -1,0 +1,453 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.2.0/fontawesome-free-6.2.0-web/css/all.min.css">
+    <title>Computer_Shop</title>
+</head>
+<body>
+    <header class="header">
+        <div class="topbar">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-6 loggin">
+                        <ul class="loggin-form">
+                            <li class="loggin-auth-form login">
+                                <a href="#" class="border-solid">
+                                    <i class="fa-solid fa-arrow-right-to-bracket loggin-auth-icon"></i>
+                                    Đăng nhập
+                                </a>
+                            </li>
+                            <li class="loggin-auth-form logout">
+                                <a href="#">
+                                    <i class="fa-regular fa-pen-to-square loggin-auth-icon"></i>
+                                    Đăng kí
+                                </a>
+                            </li>
+                            <div class="form-loggin-overlay">
+                                <!-- <div class="container" id="container">
+                                    <div class="form-container sign-up-container">
+                                        <form action="#">
+                                            <h1>Create Account</h1>
+                                            <div class="social-container">
+                                                <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                                                <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                                            </div>
+                                            <span>or use your email for registration</span>
+                                            <input  type="text" placeholder="Name" />
+                                            <input  type="email" placeholder="Email" />
+                                            <input  type="password" placeholder="Password" />
+                                            <button>Sign Up</button>
+                                        </form>
+                                    </div>
+                                    <div class="form-container sign-in-container">
+                                        <form action="#">
+                                            <h1>Sign in</h1>
+                                            <div class="social-container">
+                                                <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                                                <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                                            </div>
+                                            <span>or use your account</span>
+                                            <input type="email" placeholder="Email" />
+                                            <input type="password" placeholder="Password" />
+                                            <a href="#">Forgot your password?</a>
+                                            <button>Sign In</button>
+                                        </form>
+                                    </div>
+                                    <div class="overlay-container">
+                                        <div class="overlay">
+                                            <div class="overlay-panel overlay-left">
+                                                <h1>Welcome Back!</h1>
+                                                <p>To keep connected with us please login with your personal info</p>
+                                                <button class="ghost" id="signIn">Sign In</button>
+                                            </div>
+                                            <div class="overlay-panel overlay-right">
+                                                <h1>Hello, Friend!</h1>
+                                                <p>Enter your personal details and start journey with us</p>
+                                                <button class="ghost" id="signUp">Sign Up</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <div class="loggin__container">
+                                    <div class="form-sign-up">
+                                        <form action="#" class="form-sign">
+                                            <h1 class="form-title">
+                                                Create-Account
+                                            </h1>
+                                            <div class="social-loggin">
+                                                <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                                                <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                                            </div>
+                                            <span class="creating-an-account">or use your email for registration</span>
+                                            <input class="input-value-form" type="text" placeholder="Name" />
+                                            <input class="input-value-form" type="email" placeholder="Email" />
+                                            <input class="input-value-form" type="password" placeholder="Password" />
+                                            <button class="form-submit">Sign Up</button>
+                                        </form>
+                                    </div>
+                                    <div class="form-sign-in">
+                                        <form action="#" class="form-sign">
+                                            <h1 class="form-title">
+                                                Sign in
+                                            </h1>
+                                            <div class="social-loggin-in">
+                                                <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                                                <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                                            </div>
+                                            <span class="creating-an-account">or use your account</span>
+                                            <input class="input-value-form" type="email" placeholder="Email" />
+                                            <input class="input-value-form" type="password" placeholder="Password" />
+                                            <a href="#" class="forget-password">Forgot your password?</a>
+                                            <button class="form-submit">Sign In</button>
+                                        </form>
+                                    </div>
+                                    <div class="overlay-container">
+                                        <div class="overlay">
+                                            <div class="overlay-panel overlay-left">
+                                                <h1 class="title-overlay">
+                                                    Welcome Back!
+                                                </h1>
+                                                <p class="content-overlay">
+                                                    To keep connected with us please login with your personal info
+                                                </p>
+                                                <button class="ghost form-submit signIn">Sign In</button>
+                                            </div>
+                                            <div class="overlay-panel overlay-right">
+                                                <h1 class="title-overlay">
+                                                    Hello, Friend!
+                                                </h1>
+                                                <p class="content-overlay">
+                                                    Enter your personal details and start journey with us
+                                                </p>
+                                                <button class="ghost form-submit signUp">Sign Up</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="close-overlay">
+                                        <i class="fa-regular fa-circle-xmark icon-close"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="col l-6 contact_search">
+                        <div class="contact__hotline">
+                            Hotline:
+                            <a href="tel:0865294312">
+                                <strong>0865294312</strong>
+                            </a>
+                        </div>
+                        <div class="search__bar">
+                            <form action="" method="get">
+                                <input type="text" class="form-control" autocomplete="off" maxlength="70" title="Nhập từ khóa để tìm kiếm" placeholder="Tìm kiếm..." required>
+                                <button class="form-btn" type="submit">
+                                    <i class="fa-solid fa-magnifying-glass form-btn-icon"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-bar">
+            <div class="grid wide">
+                <div class="row mid2">
+                    <div class="col l-4 app__socials">
+                        <ul class="app__socials-list">
+                            <li class="app__social-item "><a href="https://www.facebook.com/" class="app__social-item--fb app__social-link">
+                                <i class="fa-brands fa-facebook app__social-icon"></i>
+                            </a></li>
+                            <li class="app__social-item "><a href="https://twitter.com/" class="app__social-item--tw app__social-link">
+                                <i class="fa-brands fa-twitter app__social-icon"></i>
+                            </a></li>
+                            <li class="app__social-item "><a href="https://www.google.com.vn/" class="app__social-item--gg app__social-link">
+                                <i class="fa-brands fa-google-plus-g app__social-icon"></i>
+                            </a></li>
+                            <li class="app__social-item "><a href="https://www.youtube.com/" class="app__social-item--yt app__social-link">
+                                <i class="fa-brands fa-youtube app__social-icon"></i>
+                            </a></li>
+                            <li class="app__social-item "><a href="https://www.instagram.com/" class="app__social-item--int app__social-link">
+                                <i class="fa-brands fa-instagram app__social-icon"></i>
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="col l-4">
+                        <div class="logo_shop">
+                            <a href="#" class="logo-link">
+                                <img src="https://theme.hstatic.net/1000340279/1000431896/14/logo.png?v=7" alt="" class="logo-img">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-4 card-sp-hover">
+                        <div class="card-sp">
+                            <i class="fa-solid fa-cart-shopping card-sp-icon"></i> 
+                            <span class="count-sp">
+                                0
+                            </span> 
+                        </div>
+                        <div class="card-sp-list">
+                            <p>Không có sản phẩm nào trong giỏ hàng</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-bar">
+            <div class="grid wide">
+                <div class="row">
+                    <ul class="menu-bar-list">
+                        <li class="menu-bar-iem menu-bar-active">
+                            Trang Chủ
+                        </li>
+                        <li class="menu-bar-iem">
+                            Giới Thiệu
+                        </li>
+                        <li class="menu-bar-iem menu-bar-item-rel1">
+                            Sản Phẩm 
+                            <i class="fa-solid fa-chevron-down menu-bar-icon"></i>
+                            <div class="list-sp">
+                                <ul class="list-sp-item">
+                                    <li class="list-sp-content">
+                                        <a href="" class="list-sp-link">
+                                            Sản phẩm bán chạy
+                                        </a>
+                                    </li>
+                                    <li class="list-sp-content list-sp-content-active">
+                                        <a href="" class="list-sp-link">
+                                            Máy tính xách tay
+                                            <i class="fa-solid fa-chevron-right "></i>
+                                        </a>
+                                        <div class="list-sp-lv2">
+                                            <ul class="list-sp-lv2-dropright">
+                                                <li class="list-dropright">
+                                                    <a href="" class="list-dropright-link">Apple</a>
+                                                </li>
+                                                <li class="list-dropright">
+                                                    <a href="" class="list-dropright-link">Dell</a>
+                                                </li>
+                                                <li class="list-dropright">
+                                                    <a href="" class="list-dropright-link">Asus</a>
+                                                </li>
+                                                <li class="list-dropright">
+                                                    <a href="" class="list-dropright-link">Acer</a>
+                                                </li>
+                                                <li class="list-dropright">
+                                                    <a href="" class="list-dropright-link">Lenovo</a>
+                                                </li>
+                                                <li class="list-dropright">
+                                                    <a href="" class="list-dropright-link">HP</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="list-sp-content">
+                                        <a href="" class="list-sp-link">
+                                            Máy tính để bàn
+                                        </a>
+                                    </li>
+                                    <li class="list-sp-content list-sp-content-active1">
+                                        <a href="" class="list-sp-link">
+                                            Điện thoại di động
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </a>
+                                        <div class="list-lv1">
+                                            <ul class="list-sp-lv2-dropright">
+                                                <li class="list-dropright">
+                                                    <a href="" class="list-dropright-link">Iphone</a>
+                                                </li>
+                                                <li class="list-dropright">
+                                                    <a href="" class="list-dropright-link">SamSung</a>
+                                                </li>
+                                                <li class="list-dropright">
+                                                    <a href="" class="list-dropright-link">Xioami</a>
+                                                </li>
+                                                <li class="list-dropright">
+                                                    <a href="" class="list-dropright-link">Realme</a>
+                                                </li>
+                                                <li class="list-dropright">
+                                                    <a href="" class="list-dropright-link">Poco</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="list-sp-content">
+                                        <a href="" class="list-sp-link">
+                                            Tivi
+                                        </a>
+                                    </li>
+                                    <li class="list-sp-content">
+                                        <a href="" class="list-sp-link">
+                                            Sản phẩm khuyến mãi
+                                        </a>
+                                    </li>
+                                    <li class="list-sp-content">
+                                        <a href="" class="list-sp-link">
+                                            Linh kiện máy tính
+                                        </a>
+                                    </li>
+                                    <li class="list-sp-content list-sp-content-active2">
+                                        <a href="" class="list-sp-link">
+                                            Phụ kiện
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </a>
+                                        <div class="list-lv2">
+                                            <ul class="list-sp-lv2-dropright">
+                                                <li class="list-dropright">
+                                                    <a href="" class="list-dropright-link">Sửa chữa đồ điện</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-bar-iem menu-bar-item-rel2">
+                            Laptop
+                            <i class="fa-solid fa-chevron-down menu-bar-icon"></i>
+                        </li>
+                        <li class="menu-bar-iem menu-bar-item-rel3">
+                            Điện Thoại
+                            <i class="fa-solid fa-chevron-down menu-bar-icon"></i>
+                        </li>
+                        <li class="menu-bar-iem menu-bar-item-rel4">
+                            Phụ Kiện
+                            <i class="fa-solid fa-chevron-down menu-bar-icon"></i>
+                        </li>
+                        <li class="menu-bar-iem">
+                            Tin Công Nghệ
+                        </li>
+                        <li class="menu-bar-iem">
+                            Liên Hệ
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="app">
+        <div class="top__app">
+            <div class="slider">
+                <div class="slider-prev">
+                    <i class="fa fa-angle-left slider-prev-icon"></i>
+                </div>
+                <ul class="slider-dots">
+                  <li class="slider-dot-item active" data-index="0"></li>
+                  <li class="slider-dot-item" data-index="1"></li>
+                </ul>
+                <div class="slider-wrapper">
+                  <div class="slider-main">
+                    <div class="slider-item">
+                      <img
+                        class="slider-img"
+                        src="./assets/image/slider_1_image.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="slider-item">
+                      <img
+                        class="slider-img"
+                        src="./assets/image/slider_2_image.png"
+                      />
+                    </div>
+                    
+                    
+                  </div>
+                </div>
+                <div class="slider-next">
+                    <i class="fa fa-angle-right slider-next-icon"></i>
+                </div>
+              </div>
+        </div>
+        <div class="app__hot-deal">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-3">
+                        <div class="banner-item">
+                            <a href="#" class="image-line">
+                                <img 
+                                    src="//theme.hstatic.net/1000340279/1000431896/14/hotdeal_image.jpg?v=7" 
+                                    data-lazyload="//theme.hstatic.net/1000340279/1000431896/14/hotdeal_image.jpg?v=7" 
+                                    alt="khuyen-mai" 
+                                    class="img-responsive image-line"
+                                >
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-6">
+                        <div class="hot-deal-item">
+                            <div class="header-deal">
+                                <h2 class="title-deal">
+                                    Hot deal
+                                </h2>
+                            </div>
+                            <div class="content-deal">
+                                <div class="content-hot-deal">
+                                    <div class="img-sp-hot-deal">
+                                        <img 
+                                        class="product-image" 
+                                        src="//product.hstatic.net/1000340279/product/upload_49b3d99f4fa3487f87ba97bd7fad8e8c_grande.jpg" 
+                                        data-lazyload="//product.hstatic.net/1000340279/product/upload_49b3d99f4fa3487f87ba97bd7fad8e8c_grande.jpg" 
+                                        alt="Dell XPS 15 9550 70073979 15.6 inches">
+                                    </div>
+                                    <div class="content-info-deal">
+                                        <h3 class="product-name">
+                                            <a href="#" class="product-link">
+                                                Dell XPS 15 9550 70073979 15.6 inches
+                                            </a>
+                                        </h3>
+                                        <div class="product-brand">
+                                            <label>Hãng :</label>
+                                            <span>Dell</span>
+                                        </div>
+                                        <div class="product-review">
+                                            <label>Loại :</label>
+                                            <span>Laptop</span>
+                                        </div>
+                                        <div class="product-price">
+                                            <span class="price-special">
+                                                <span class="price">35.990.000đ</span>
+                                            </span>
+                                            <span class="price-old">
+                                                <span class="price">
+                                                    37.000.000đ
+                                                </span>
+                                            </span>
+                                        </div>
+                                        <div class="product-dealtime">
+                                            Còn hàng
+                                        </div>
+                                        <div class="product-action">
+                                            <form action="" class="buy-product">
+                                                <input type="hidden">
+                                                <button class="btn-buy-product">
+                                                    <span>
+                                                        <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                                                        Mua ngay
+                                                    </span>
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/javascript/main.js"></script>
+</body>
+</html>
